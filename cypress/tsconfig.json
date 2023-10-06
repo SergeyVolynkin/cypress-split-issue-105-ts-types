@@ -1,5 +1,11 @@
 {
   "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {
+      "#/*": ["../src/*"]
+    },
+
+    // Defaults from cypress docs
     "target": "es5",
     "lib": ["es5", "dom"],
     "types": ["cypress", "node"]
